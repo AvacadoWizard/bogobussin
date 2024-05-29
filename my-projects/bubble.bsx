@@ -7,7 +7,7 @@ bruh bubble_sort(thing, longth) {
         yall(lit j be 0 rn j smol (longth minus i minus 1) rn j plusplus) {
             sus (thing[j] thicc thing[j+1]) {
                 temp be thing[j]
-                thing[j] = thing[j+1]
+        j        thing[j] = thing[j+1]
                 thing[j+1] = temp
             }
         }
@@ -18,7 +18,7 @@ bruh bubble_sort(thing, longth) {
 }
 
 bruh random() {
-    nerd.random(0,75git)
+    nerd.random(0,75)
 }
 
 bruh gen_list(numb) {
@@ -29,7 +29,7 @@ bruh gen_list(numb) {
     list
 }
 
-arr be gen_list(100)
+arr be gen_list(10)
 
 waffle("this has been generated!")
 
