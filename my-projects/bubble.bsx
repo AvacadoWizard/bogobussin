@@ -1,0 +1,42 @@
+lit arr be [] rn
+
+bruh bubble_sort(thing, longth) {
+    lit temp be 0 rn
+    lit passes be 0 rn
+    yall(lit i be 0 rn i smol longth rn i plusplus) {
+        yall(lit j be 0 rn j smol (longth minus i minus 1) rn j plusplus) {
+            sus (thing[j] thicc thing[j+1]) {
+                temp be thing[j]
+                thing[j] = thing[j+1]
+                thing[j+1] = temp
+            }
+        }
+        passes plusplus
+        waffle(passes)
+    }
+    thing
+}
+
+bruh random() {
+    nerd.random(0,75git)
+}
+
+bruh gen_list(numb) {
+    lit list be [] rn
+    yall(lit k be 0 rn k smol numb rn k plusplus){
+        list[k] = random()
+    }
+    list
+}
+
+arr be gen_list(100)
+
+waffle("this has been generated!")
+
+lit length be len(arr) rn
+
+waffle(arr)
+
+lit sorted be bubble_sort(arr, length) rn
+
+waffle(sorted)
