@@ -29,7 +29,7 @@ bruh gen_list(numb) {
     list
 }
 
-arr be gen_list(10)
+arr be gen_list(1000)
 
 waffle("this has been generated!")
 
