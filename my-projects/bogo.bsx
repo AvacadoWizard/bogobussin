@@ -1,0 +1,63 @@
+bruh bubble_sort(thing, longth) {
+    lit temp be 0 rn
+    lit passes be 0 rn
+    yall(lit i be 0 rn i smol longth rn i plusplus) {
+        yall(lit j be 0 rn j smol (longth minus i minus 1) rn j plusplus) {
+            sus (thing[j] thicc thing[j+1]) {
+                temp be thing[j]
+        j        thing[j] = thing[j+1]
+                thing[j+1] = temp
+            }
+        }
+        passes plusplus
+        waffle(passes)
+    }
+    thing
+}
+
+bruh list_copy(thing) {
+    yall(lit i be 0 rn i smol (len(thing)) rn i plusplus) {
+        thing[i] = thing[i]
+    }
+
+    thing
+} 
+
+bruh shuffle(thing) {
+    lit one be 0 rn
+    lit two be 0 rn
+    lit j be 0 rn
+    yall(lit i be (len(thing) - 1) rn i thicc 0 rn i minusminus) {
+        j be nerd.random(0, (len(thing)- 1))
+        one be thing[i]
+        two be thing[j]
+        thing[i] = two
+        thing[j] = one
+    }
+    thing
+}
+
+lit list be [1,2,3,4] rn
+
+mf order be bson.stringify(list) rn
+
+list be shuffle(list)
+
+lit passes be 0 rn
+
+bruh bogo_sort(thing) {
+    passes plusplus
+    sus (bson.stringify(thing) nah order) {
+        waffle("Passes:")
+        waffle(passes)
+        waffle("Current List State:")
+        waffle(bson.stringify(thing))
+        lit sigma be shuffle(thing) rn
+        bogo_sort(sigma)
+    } impostor {
+        waffle("sorted in this many passes: ")
+        waffle()
+    }
+}
+
+bogo_sort(list)
