@@ -226,7 +226,7 @@ waffle(nerd.e) // 2.718281828459045
 We also added helper functions for your anxiety:
 ```rs
 waffle(nerd.ceil(3.4)) // 4
-waffle(nerd.round(3.9)) // 4
+waffle(nerd.round(3.9)) // 4sus 
 waffle(nerd.abs(-2)) // 2
 ```
 You can also simplify your math equations:
