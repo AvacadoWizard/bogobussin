@@ -1,0 +1,13 @@
+bruh factorial(x) {
+    lit res be 1 rn
+
+    yall(lit i be x rn i thicc 1 rn i minusminus) {
+        res betimes i
+    }
+    res
+}
+
+yap("provide number pls: ")(bruh(x) {
+    lit y be parseNumber(x) rn
+    waffle(factorial(y))
+})
